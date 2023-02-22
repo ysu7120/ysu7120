@@ -33,9 +33,7 @@
 
 ## [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템](https://github.com/geeksbaek/pokedex) (2020.10~2021.11)
 
-[![GitHub stars](https://img.shields.io/github/stars/geeksbaek/pokedex.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/geeksbaek/pokedex/stargazers/)
-
-`#Python` `#Pandas` `#Numpy` `#Pandas` `#Tensorflow` `#Keras` `#Data`
+`#Python` `#Pandas` `#Numpy` `#Tensorflow` `#Keras` `#Data` `#LSTM`
 
 ### 요약
 
@@ -50,73 +48,28 @@
   <img src="https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png" width="1000">
 </p>
 
-1. 사용자의 요청이 AoG를 통해 Agent로 전달되면 Agent는 의도를 파악하고 파싱을 시도합니다.
-2. 의도가 파악되면 파싱 결과를 Fulfillment라는 WebHook 서버로 보냅니다.
-3. Fulfillment는 파싱된 요청을 받아 적절한 응답을 생성해 돌려줍니다.
+1. 서울시 교통데이터의 입출 교통데이터를 전처리하여 학습할 수 있도록 제작합니다.
+2. 준비된 데이터를 LSTM 모델에 입력시켜 특정시간의 정보를 예측할 수 있도록 학습시킵니다.
+3. 학습시킨 데이터를 활용하여 특정시간의 차량이동량을 예측하고 제작한 알고리즘을 도로교통에 대입시켜 교통체증을 완화합니다.
 
-예를 들어 `리자몽 약점 뭐야?`라는 요청을 받게 되었을 때, Agent는 미리 정의한 의도 중에서 `약점`과 관련된 의도가 존재하는 것을 확인하고, 해당 의도에서 전달받을 수 있는 인자인 키워드 `리자몽`을 파싱합니다. Fulfillment로 `약점`이라는 의도와 `리자몽`이라는 인자가 전달되면 Fulfillment는 DB를 참조해서 적절한 응답을 생성하여 반환하게 됩니다.
 
-DB는 [gameinfo.io](https://pokemon.gameinfo.io/ko/)라는 웹사이트를 스크래핑하여 구축했습니다. 게임 특성상 포켓몬 데이터는 수정될 일이 거의 없기 때문에 DB 서버를 두는 대신에 데이터를 JSON 파일로 직렬화하여 Fulfillment 서버와 함께 두고 전역 변수에 JavaScript 객체로 불러와 접근하도록 했습니다.
 
-### 비하인드 스토리
+## [홈베이스: 모션인식을 활용한 야구훈련 프로그램](https://github.com/geeksbaek/goinside) (2021.3~2021.6)
 
-포켓몬 GO의 레이드 컨텐츠에서 사용하려는 목적으로 개발했습니다. 포켓몬의 상성을 따져보고 유리한 덱을 구성해야 하는데 검색을 하지 않는 이상 한계가 있기 때문입니다. 브라우저를 키고 상성을 검색하는 시간을 더 단축시키고 싶었습니다. pokedex를 이용하면 말 한마디로 상성을 확인할 수 있습니다. 상성 뿐 아니라 IV 차트 보기, 포켓몬 둥지 찾기 등 다양한 기능을 추가 개발하고 있습니다.
-
-대부분의 개인 프로젝트가 그러하듯이 pokedex도 개인적인 필요에 의해 개발된 프로젝트이지만, 이번에는 GCP 크레딧을 얻기 위한 목적도 있었습니다. Google Assistant 개발자들에게 1년간 매월 200달러의 크레딧을 주는 [프로그램](https://developers.google.com/actions/community/overview)이 있는데, pokedex 덕분에 프로그램에 통과되어 이후 다른 프로젝트에서 GCP 리소스를 마음 편히 사용할 수 있게 되었습니다.
-
-### 사용해보기
-
-휴대전화에서 구글 어시스턴트를 호출한 뒤 `포켓몬 도감과 대화`와 같은 명령으로 pokedex를 호출하거나 [여기](https://assistant.google.com/services/a/uid/000000ff71813a93?hl=ko)에서 pokedex를 실행하는 명령을 휴대전화로 보낼 수 있습니다. (Android 5.0 이상의 휴대전화, iOS 10.0 이상의 기기에서 사용할 수 있습니다)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/geeksbaek/portfolio/master/src/default.gif" width="250">
-</p>
-
-## [goinside](https://github.com/geeksbaek/goinside) (2016~2018)
-
-[![GitHub stars](https://img.shields.io/github/stars/geeksbaek/goinside.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/geeksbaek/goinside/stargazers/)
-
-`#go` `#web_scraping` `#lib`
+`#Python` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Teachable Machine` `#node.js`
 
 ### 요약
 
-goinside는 디시인사이드라는 포털에서의 행동을 Go로 구현한 라이브러리입니다. 초기에는 웹 페이지를 스크래핑하는 방식으로 기능을 구현했으나 디시인사이드 안드로이드 앱에서 사용하는 비공개 API를 발견하여 현재는 디시인사이드 API의 래퍼 형태로 구현되어 있습니다.
+전 세계적인 전염병인 코로나 바이러스의 확산으로 인구가 밀집하면 안되는 이유가 생겼으며, 정부차원에서 5인이상 집합금지, 운동시설이용제한 등의 제약을 걸었기 때문에 운동인들은 제대로 된 훈련을 할 수 없는 상황에 놓였습니다. 특히 다수가 필요한 운동과 이를 훈련하기 위한 티칭을 하는 과정에서 방역수칙을 어길 수 밖에 없기 때문에 이를 해결할 방안이 
+필요합니다.
 
-goinside는 제가 개발한 라이브러리 중에서 가장 큰 라이브러리입니다. 최대한 많은 기능을 지원하기 위해 노력했고, 디시인사이드 API에서 지원하지 않는 갤로그 관련 기능도 웹 스크래핑으로 일부 구현했습니다. Go 언어를 최대한 이용하여 간결하고 유연하게 설계했으며 함수 대부분을 커버하는 테스트 코드를 작성하여 유지 보수에 신경 썼습니다.
+이러한 문제를 해결하기 위해 언제 어디서든 야구훈련을 받을 수 있는 프로그램을 연구하고 개발하였으며, 해당 연구를 위해 이미지센서와 초음파센서를 활용하였습니다. 
+스마트 베이스볼 트레이닝 프로그램은 웹사이트를 기반으로 실행가능하며 카메라에 저장된 이미지센서가 사용자의 모션을 인식하고 해당 자세에 대한 티칭을 하여 훈련을 보조하며, 
+초음파센서를 활용하여 티칭의 정확도를 높일 수 있으며, 모바일도 연동이 가능해 언제 어디서든 훈련이 가능합니다.
 
 ### 자세히
 
-디시인사이드 비공개 API를 래핑하기 위해서 우선 해당 API의 사용 방법을 정확히 익혀야 했습니다. 이 API에 대한 문서 같은 것은 존재하지 않았기 때문에, 서버와 앱이 통신하는 패킷을 분석하고 앱 자체를 디컴파일해서 분석하는 방법을 사용했습니다. 앱은 난독화 되어있었기 때문에 분석이 쉽지는 않았습니다.
 
-그 외에 기본적인 기능들을 래핑하는 것은 어렵지 않았는데, 다만 갤로그에 대해서는 API가 존재하지 않았기 때문에 [goinside/gallog](https://godoc.org/github.com/geeksbaek/goinside/gallog) 라는 이름의 서브 패키지에서 웹 스크래핑을 통해 기능을 구현했습니다. goinside/gallog 에는 [Session.FetchAll](https://godoc.org/github.com/geeksbaek/goinside/gallog#Session.FetchAll), [Session.DeleteAll](https://godoc.org/github.com/geeksbaek/goinside/gallog#Session.DeleteAll)과 같은 Batch 작업을 수행하는 함수가 있는데, Go가 동시성을 잘 지원하는 덕분에 쉽게 구현할 수 있었습니다.
-
-현재 테스트 코드의 커버리지는 약 80%이며 지속해서 코드의 안정성을 개선하고 있습니다. (travis 빌드 도구를 통해 측정된 커버리지는 로컬에서만 수행할 수 있는 일부 테스트 코드를 주석처리 했기 때문에 정확하지 않습니다)
-
-### 비하인드 스토리
-
-사실 이 라이브러리는 하위 프로젝트 [goinside-gallog-cleaner](https://github.com/geeksbaek/goinside-gallog-cleaner)라는 프로그램을 개발하는 중에 점점 커지는 코드를 더 잘 관리하기 위해 분리한 것입니다. API 라이브러리를 만들어 오픈소스로 공개하면 수요가 있을 것이라고 생각했습니다.
-
-처음에는 실제 디시인사이드 웹사이트를 스크래핑하여 API를 구현했습니다. 이 방식은 웹사이트 구조가 바뀌면 그때마다 다시 웹사이트를 다시 분석하여 코드를 수정해야 하는 문제가 있습니다. 웹사이트 구조가 바뀌는 일은 비일비재하므로 그다지 좋은 방법은 아니었습니다. 이후에 디시인사이드 어플리케이션에서 비공개 API 서버와 통신하는 것을 발견했고, 대대적으로 코드를 개선하면서 성능 및 유지보수 비용이 크게 개선되었습니다.
-
-### 하위 프로젝트
-
-#### [goinside-image-crawler](https://github.com/geeksbaek/goinside-image-crawler)
-
-[![GitHub stars](https://img.shields.io/github/stars/geeksbaek/goinside-image-crawler.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/geeksbaek/goinside-image-crawler/stargazers/) [![Github All Releases](https://img.shields.io/github/downloads/geeksbaek/goinside-image-crawler/total.svg)]()
-
-`#vision`
-
-goinside-image-crawler는 게시물의 이미지를 수집하는 프로그램입니다. 여러 개의 이미지를 동시적으로 내려받으며 [Google Cloud Vision API](https://cloud.google.com/vision/)와 연동하여 수집한 이미지를 분류하는 기능이 있습니다.
-
-#### [goinside-gallog-cleaner](https://github.com/geeksbaek/goinside-gallog-cleaner)
-
-[![GitHub stars](https://img.shields.io/github/stars/geeksbaek/goinside-gallog-cleaner.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/geeksbaek/goinside-gallog-cleaner/stargazers/) [![Github All Releases](https://img.shields.io/github/downloads/geeksbaek/goinside-gallog-cleaner/total.svg)](https://github.com/geeksbaek/goinside-gallog-cleaner/releases/latest)
-
-goinside-gallog-cleaner는 일명 디시 클리너라고 불리는 프로그램입니다. 회원으로 작성한 모든 글과 댓글을 삭제해줍니다.
-
-디시인사이드에는 자신의 글을 일괄 삭제하는 기능이 없기 때문에 이런 작업을 대신 해주는 프로그램에 대한 수요가 항상 있었습니다. 현재는 사용할 수 없지만 누적 다운로드가 수 만 건을 기록했을 정도로 인기 있던 프로그램입니다.
-
-***
 
 ## [ourchess](https://github.com/geeksbaek/ourchess) (2012)
 
