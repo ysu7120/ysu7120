@@ -1,4 +1,8 @@
-### Hi there 👋
+### 안녕하세요 👋
+
+데이터 개발을 하고 있는 유성운의 GITHUB입니다
+
+많은 관심바랍니다.
 
 <!--
 **ysu7120/ysu7120** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
