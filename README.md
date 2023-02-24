@@ -117,34 +117,58 @@ AI Hub의 문화재 데이터를 활용하여 학습데이터셋을 제작하고
 2. DCGAN을 활용하여 이미지를 학습시키는 과정에서 다양한 활성화 함수(Relu의 여러버전)을 사용하며 정확도를 높혀갔습니다.
 3. 여러 석탑의 이미지를 복원하며 가장 정확도가 높고 육안으로 비슷한 이미지가 도출될때까지 반복하여 이미지를 복원하였습니다.
 
-### [Tesla Model 3 Earlybird](https://github.com/geeksbaek/tesla-model-3-earlybird)
+### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.10~2023.2)
 
-`#react` `#firebase`
+`#Python` `#Selenium` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Streamlit` `#Ngrok`
 
-테슬라 모델 3의 한국 출시를 기다리며 개발한 서비스입니다. 최신 환율 정보를 바탕으로 예상 구매 가격을 계산해줍니다. 최근 모델 3가 정식 오픈하게 되면서 지원을 중지하게 되었습니다. [여기](https://geeksbaek.github.io/tesla-model-3-earlybird/#/)에서 호스팅은 유지되고 있습니다.
-
-### [Project Arche](https://github.com/geeksbaek/Project-Arche)
-
-`#go` `#web_scraping` `#gcp` `#polymer` `#restful`
-
-아키에이지라는 MMORPG 사용자들에게 도움을 주기 위해 개발한 서비스입니다. 지금은 서비스가 중지된 웹 어플리케이션 버전과 현재 서비스되고 있는 API 버전으로 나누어져 있습니다. [여기](https://project-arche.appspot.com/api/auctions/total/%EB%AA%A9%EC%9E%AC/10)에서 API 버전을 테스트할 수 있습니다.
+### 요약
 
 <p align="center">
-  <img src="http://i.imgur.com/hvVFxEz.gif" width="300"> <img src="http://i.imgur.com/YzLMsAp.gif"  width="300">
+  <img src="https://user-images.githubusercontent.com/80941367/221216628-6896bf4c-c1dd-4579-b64b-aae75848068b.PNG" width="800">
 </p>
 
-### [go-arp-spoofer](https://github.com/geeksbaek/go-arp-spoofer)
+타임지가 선정한 슈퍼푸드이며, 후숙 과일 중 하나인 아보카도는 현지가격과 국내 유통 가격이 크게 차이가 나는 식품 중 하나입니다. 이러한 아보카도의 분류과정을 자동화한다면 다양한 분야에서 인건비를 줄여 가격을 낮출 수 있을 것입니다.
 
-`#go` `#network`
+해당 프로젝트에서는 아보카도의 데이터셋을 크롤링을 통하여 제작하고, 딥러닝 기반 전이학습(transfer learning)모델을 다수 사용하여, 최적의 분류모델을 만드는 것을 목표로 합니다.
 
-대학교에서 "ARP Spoofing을 통한 ID, PASSWORD 파싱" 이라는 주제로 개발한 ARP 스푸핑 툴입니다. Go의 동시성 특징을 적극적으로 활용하여 개발되었습니다. 동시에 복수의 인터페이스, 복수의 세션을 동시에 공격할 수 있는 특징이 있습니다. 자세한 설명은 [PPT](https://onedrive.live.com/redir?resid=75AF0E3BAC6794A2!5977&authkey=!AMk1emIWlg96vk8&ithint=file%2cpptx)에 소개되어 있습니다.
+제작한 데이터셋을 딥러닝 기반 전이학습모델에 직접 대입하고, 해당 모델의 하이퍼 파라미터를 Fine-tuning하며 진행하였습니다. 
 
-### [go-network-monitoring](https://github.com/geeksbaek/go-network-monitoring)
+제작된 모델은 아보카도의 이미지를 입력하였을 때, 해당 아보카도의 익은 정도를 99% 이상의 정확도로 분류하였으며, 해당 모델을 웹페이지에 입력하고 Ngrok을 통해 배포하여 누구나 사용할 수 있도록 하였습니다.
 
-`#go` `#network`
-
-대학교에서 개발한 네트워크 트래픽 통계 툴입니다. 마찬가지로 Go로 개발하였으며, 네트워크 in-path 구간에서 사용할 수 있습니다. 최적화를 고려하지 않고 간단하게 만들었기 때문에 일정 트래픽 이상이 발생하는 네트워크에서는 정상적인 통계를 내지 못할 수 있습니다.
+### 프로젝트 진행 과정요약
+Selenium과 BeautifulSoup을 활용하여 데이터를 크롤링하는 방법으로 데이터셋을 제작하고,
+전이학습 모델간의 비교를 통해 최적의 학습모델을 제작하였습니다.
 
 <p align="center">
-  <img src="http://i.imgur.com/FkjatPv.png">
+  <img src="https://user-images.githubusercontent.com/80941367/221218730-2dcd46a9-a6dd-44d1-88cf-f429c5fa1661.PNG" width="800">
 </p>
+
+1. 아보카도의 이미지를 크롤링하고 데이터셋을 제작합니다.
+2. 아보카도 이미지의 다양한 특징을 추출하고 이를 통해 데이터셋을 전처리합니다.
+3. 다양한 전이학습 기법을 비교하며 최적의 학습모델을 제작합니다.
+4. 학습모델을 웹페이지에 입력하여 누구나 사용할 수 있도록 베포합니다.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80941367/221220179-1bbf500c-d2b6-460d-9e8f-1ec3d7287939.PNG" width="800">
+</p>
+
+### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.12~2022.12)
+
+`#Python` `#Selenium` `#BeautifulSoup` `#Pandas` `#Tensorflow` `#Keras` `#LSTM` `#Kakao` `#Ngrok`
+
+### 요약
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80941367/221231573-34d9350c-8a04-4b8f-9749-3e34782dfb3a.PNG" width="800">
+</p>
+
+
+### 프로젝트 진행 과정요약
+행정동 단위 서울 생활 인구데이터를 활용하여 전처리하고, Selenium과 BeautifulSoup을 활용하여 SNS의 메타데이터를 사용하여 특정날에 가장 인구가 몰리는 곳을 WordCloud를 활용하여 찾아내었습니다.
+
+이후 LSTM을 활용하여 인구의 붐빔을 예측하고 붐빔의 정도에 따라 사용자에게 메시지를 보내줍니다.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80941367/221232149-5dd691ea-3fb3-4893-b620-0e02c0cd1aff.PNG" width="800">
+</p>
+
