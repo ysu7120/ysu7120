@@ -93,7 +93,7 @@ C-LSTM 알고리즘을 이용하여 학습 하고 교통체증에 대해 분석 
 3. 웹 페이지에 기능을 이식하고 Netlify를 활용하여 베포하였습니다. 
 
 
-## [문화재 복원을 위한 DCGAN 기반 Image Completion 시스템 ](https://github.com/geeksbaek/ourchess) (2022.1~2022.10)
+## [문화재 복원을 위한 DCGAN 기반 Image Completion 시스템 ](https://github.com/ysu7120/ysu7120/tree/%EB%AC%B8%ED%99%94%EC%9E%AC-%EB%B3%B5%EC%9B%90%EC%9D%84-%EC%9C%84%ED%95%9C-DCGAN-%EA%B8%B0%EB%B0%98-Image-Completion-%EC%8B%9C%EC%8A%A4%ED%85%9C#%EB%AC%B8%ED%99%94%EC%9E%AC-%EB%B3%B5%EC%9B%90%EC%9D%84-%EC%9C%84%ED%95%9C-dcgan-%EA%B8%B0%EB%B0%98-image-completion-%EC%8B%9C%EC%8A%A4%ED%85%9C--20221202210) (2022.1~2022.10)
 
 `#Python` `#Pandas` `#Tensorflow` `#Keras` `#DCGAN` `#Image Completion` 
 
