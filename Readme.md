@@ -1,20 +1,35 @@
-### 안녕하세요 👋
+## [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템 (2020.10~2021.11)]
 
-데이터 개발을 하고 있는 유성운의 GITHUB입니다
+`#Python` `#Pandas` `#Numpy` `#Tensorflow` `#Keras` `#Data` `#LSTM`
 
-많은 관심바랍니다.
+### 요약
 
-<!--
-**ysu7120/ysu7120** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80941367/220953236-1016f9f4-87c1-46dc-b390-05304cb5763a.PNG" width="800">
+</p>
 
-Here are some ideas to get you started:
+전국 교통사고 다발 지역 상위 10곳 중 9곳은 사거리 또는 교차로이며, 교차로의 경우 교통량이 많아 정체가 심화되기 쉽습니다. 또한 교통혼잡비용은 매년 지속해서 증가하고 있으며, 그 규모 면에서 2017년 GDP의 3.4%에 달할 정도로 국가 경제활동에 큰 영향을 미치므로 교통혼잡을 완화하기 위한 지속적인 노력이 필요합니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+이러한 문제를 해결하기 위하여, 해당 프로젝트는 교통체증을 예측하여 완화 시키는 시스템으로 센서(VDS) 두 개를 설치하여 센서와 센서 사이의 거리, 신호가 바뀌는 주기, 
+신호 대기 중인 차량들의 길이와 차량들의 개수로 체증 지수를 측정하고 교통체증 발생 시 해당 차로 및 주변 차로의 시간별 데이터를 데이터 베이스에 저장하고 
+C-LSTM 알고리즘을 이용하여 학습 하고 교통체증에 대해 분석 후 교통체증을 예측하여 AI가 스스로 해당 시간대의 체증 지수를 완화시킵니다.
+
+
+### 프로젝트 진행 과정요약
+
+교통체증을 완화 알고리즘은 서울시 교통데이터를 분석하여 수정하며 진행하였습니다.
+
+1. 서울시 교통데이터의 입출 교통데이터를 전처리하여 학습할 수 있도록 제작합니다.
+2. 준비된 데이터를 LSTM 모델에 입력시켜 특정시간의 정보를 예측할 수 있도록 학습시킵니다.
+3. 학습시킨 데이터를 활용하여 특정시간의 차량이동량을 예측하고 제작한 알고리즘을 도로교통에 대입시켜 교통체증을 완화합니다.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/80941367/220963211-e1a95d34-d654-4433-874a-6e65897929ec.PNG" width="400">
+</p>
+
+## 프로젝트 성과
+
+- 제2회 대학생 동아리 인공지능(AI) 아이디어 경진대회 우수상 / 부산인재평생교육진흥원
+- AI 해커톤대회 대상 / 동서대학교
+- 춘계 학술대회 논문 발표
+- 특허 등록
