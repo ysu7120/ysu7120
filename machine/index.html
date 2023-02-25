@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!-- saved from url=(0152)file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html -->
+<html lang="en" class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Line Menu Styles</title>
+		<meta name="description" content="An open collection of menu styles that use the line as a creative design element">
+		<meta name="keywords" content="web design, styles, inspiration, line, pseudo-element, SVG, animation">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="./favicon.ico">
+		<link rel="stylesheet" type="text/css" href="./css/component.css">
+		<link rel="stylesheet" type="text/css" href="./css/demo.css">
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<header class="section codrops-header">
+				<h1>
+                    <span>센서 및 인터페이스 8조</span></br>
+                    홈베이스</br>
+                    <a>모션인식을 활용한 야구훈련 프로그램</a></br>
+                </h1>
+				<!-- GitHub corner by Tim Holman -->
+				
+			</header>
+			<section class="section section--intro">
+				<p>The line is such a versatile element in web design. There are so many interesting possibilities when it comes to using the line to enhance user interaction with subtle animations. <br><br><strong>Let's explore some today.</strong></p>
+			</section>
+			
+			<section class="section section--menu" id="Valentine">
+				<h2 class="section__title"></h2>
+
+			<div> <!--머신코드-->
+                <div id="section_subtitle">홈베이스: 모션인식을 활용한 야구 훈련 프로그램</div></br>
+            <div style="text-align: center;"><button type="button" onclick="init()" class="StartButton">Start</button></div>
+            <div><canvas id="canvas"></canvas></div>
+            <div id="label-container"></div>
+            <div id="counter"></div>
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+            <script type="text/javascript">
+                // More API functions here:
+                // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
+            
+                // the link to your model provided by Teachable Machine export panel
+                const URL = "./my_model/";
+                let model, webcam, ctx, labelContainer, maxPredictions;
+                
+                function add_textbox() {
+                    document.getElementById("counter").innerHTML += "<input type='text' name='tbox'></br>";
+                }
+                
+                async function init() {
+                    const modelURL = URL + "model.json";
+                    const metadataURL = URL + "metadata.json";
+            
+                    // load the model and metadata
+                    // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+                    // Note: the pose library adds a tmPose object to your window (window.tmPose)
+                    model = await tmPose.load(modelURL, metadataURL);
+                    maxPredictions = model.getTotalClasses();
+            
+                    // Convenience function to setup a webcam
+                    const size = 200;
+                    const flip = true; // whether to flip the webcam
+                    webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
+                    await webcam.setup(); // request access to the webcam
+                    await webcam.play();
+                    window.requestAnimationFrame(loop);
+            
+                    // append/get elements to the DOM
+                    const canvas = document.getElementById("canvas");
+                    canvas.width = size; canvas.height = size;
+                    ctx = canvas.getContext("2d");
+                    labelContainer = document.getElementById("label-container");
+                    for (let i = 0; i < maxPredictions; i++) { // and class labels
+                        labelContainer.appendChild(document.createElement("div"));
+                    }
+                    
+                    
+                }
+            
+                async function loop(timestamp) {
+                    webcam.update(); // update the webcam frame
+                    await predict();
+                    window.requestAnimationFrame(loop);
+                }
+                var status = "stand"
+                var count = 0
+                async function predict() {
+                    // Prediction #1: run input through posenet
+                    // estimatePose can take in an image, video or canvas html element
+                    const { pose, posenetOutput } = await model.estimatePose(webcam.canvas);
+                    // Prediction 2: run input through teachable machine classification model
+                    const prediction = await model.predict(posenetOutput);
+                    if(prediction[0].probability.toFixed(2) > 0.90){
+                        status = "stand"
+                    }
+                    else if(prediction[1].probability.toFixed(2) == 1.00){
+                        if(status == "stand"){
+                            var audio = new Audio('Form.mp3');
+                            audio.play();
+                        }
+                        status = "Form"
+                    }
+                    else if(prediction[2].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+                    else if(prediction[3].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+                    else if(prediction[4].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+                    else if(prediction[5].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+                    else if(prediction[6].probability.toFixed(2) > 0.50){
+                        if(status == "Form"){
+                            count++
+                            var audio = new Audio( count%10+'.mp3');
+                            audio.play();
+                        }
+                        status = "Swing"
+                    }
+                    else if(prediction[7].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+                    else if(prediction[8].probability.toFixed(2) == 1.00){
+                        if(status == "Form" || status == "stand"){
+                            var audio = new Audio( 'fail.mp3');
+                            audio.play();
+                        }
+                        status = "Fail"
+                    }
+            
+                    for (let i = 0; i < maxPredictions; i++) {
+                        const classPrediction =
+                            prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+                        labelContainer.childNodes[i].innerHTML = classPrediction;
+                    }
+            
+                    // finally draw the poses
+                    drawPose(pose);
+                }
+            
+                function drawPose(pose) {
+                    if (webcam.canvas) {
+                        ctx.drawImage(webcam.canvas, 0, 0);
+                        // draw the keypoints and skeleton
+                        if (pose) {
+                            const minPartConfidence = 0.5;
+                            tmPose.drawKeypoints(pose.keypoints, minPartConfidence, ctx);
+                            tmPose.drawSkeleton(pose.keypoints, minPartConfidence, ctx);
+                        }
+                    }
+                }
+            </script>
+            </div>
+				<!-- <span class="link-copy" data-clipboard-text="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#Valentine"></span>
+				<nav class="menu menu--valentine">
+					<ul class="menu__list">
+						<li class="menu__item menu__item--current"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Shop</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Reviews</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">News</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Contact</a></li>
+					</ul>
+				</nav> -->
+			</section>
+            <!-- 쓸모없어짐
+			<div class="break">
+				<h2 class="break__title">Contributions</h2></br>
+                <p id="contributers">
+                    안적어 
+                </p>
+			</div> -->
+<!-- 			
+			<section class="section section--menu" id="tantalid">
+				<h2 class="section__title">tantalid</h2>
+				<span class="link-copy" data-clipboard-text="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#tantalid"></span>
+				<nav class="menu menu--tantalid">
+					<ul class="menu__list">
+						<li class="menu__item menu__item--current"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Gallery</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Clients</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Shop</a></li>
+						<li class="menu__item"><a href="file:///C:/Users/YEONWOO/Documents/Study/%EC%84%BC%EC%84%9C%20%EB%B0%8F%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/LineMenuStyles-master/index.html#" class="menu__link">Contact</a></li>
+					</ul>
+				</nav>
+				<p class="info">Style created by <a href="https://ua.linkedin.com/in/andrii-polishchuk-4177904a">tantalid</a></p>
+			</section> -->
+			<!-- Check out the README.md for details on how to contribute -->
+			<!-- copy this section -->
+			
+			<!-- end copy -->
+			<!-- Related demos -->
+			
+		</div>
+		<!-- /container -->
+		<script src="./index_files/classie.js.다운로드"></script>
+		<script src="./index_files/clipboard.min.js.다운로드"></script>
+		<script>
+		(function() {
+			[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+				var menuItems = menu.querySelectorAll('.menu__link'),
+					setCurrent = function(ev) {
+						ev.preventDefault();
+
+						var item = ev.target.parentNode; // li
+
+						// return if already current
+						if (classie.has(item, 'menu__item--current')) {
+							return false;
+						}
+						// remove current
+						classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+						// set current
+						classie.add(item, 'menu__item--current');
+					};
+
+				[].slice.call(menuItems).forEach(function(el) {
+					el.addEventListener('click', setCurrent);
+				});
+			});
+
+			[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+				link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+				new Clipboard(link);
+				link.addEventListener('click', function() {
+					classie.add(link, 'link-copy--animate');
+					setTimeout(function() {
+						classie.remove(link, 'link-copy--animate');
+					}, 300);
+				});
+			});
+		})(window);
+		</script>
+	
+
+</body></html>
