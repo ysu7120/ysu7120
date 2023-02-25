@@ -60,6 +60,13 @@ C-LSTM 알고리즘을 이용하여 학습 하고 교통체증에 대해 분석 
   <img src="https://user-images.githubusercontent.com/80941367/220963211-e1a95d34-d654-4433-874a-6e65897929ec.PNG" width="400">
 </p>
 
+## 프로젝트 성과
+
+- 제2회 대학생 동아리 인공지능(AI) 아이디어 경진대회 우수상 / 부산인재평생교육진흥원
+- AI 해커톤대회 대상 / 동서대학교
+- 춘계 학술대회 논문 발표
+- 특허 등록
+
 ## [홈베이스: 모션인식을 활용한 야구훈련 프로그램](https://github.com/geeksbaek/goinside) (2021.3~2021.6)
 
 `#Python` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Teachable Machine` `#node.js` `#Text to speach`
@@ -117,6 +124,9 @@ AI Hub의 문화재 데이터를 활용하여 학습데이터셋을 제작하고
 2. DCGAN을 활용하여 이미지를 학습시키는 과정에서 다양한 활성화 함수(Relu의 여러버전)을 사용하며 정확도를 높혀갔습니다.
 3. 여러 석탑의 이미지를 복원하며 가장 정확도가 높고 육안으로 비슷한 이미지가 도출될때까지 반복하여 이미지를 복원하였습니다.
 
+## 프로젝트 성과
+- 추계학술대회 논문발표
+
 ### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.10~2023.2)
 
 `#Python` `#Selenium` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Streamlit` `#Ngrok`
@@ -148,6 +158,9 @@ Selenium과 BeautifulSoup을 활용하여 데이터를 크롤링하는 방법으
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80941367/221220179-1bbf500c-d2b6-460d-9e8f-1ec3d7287939.PNG" width="800">
 </p>
+
+## 프로젝트 성과
+- 학회 논문 등록 준비중
 
 ### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.12~2022.12)
 
