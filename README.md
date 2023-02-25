@@ -178,7 +178,7 @@ Selenium과 BeautifulSoup을 활용하여 데이터를 크롤링하는 방법으
 ## 프로젝트 성과
 - 학회 논문 등록 준비중
 
-### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.12~2022.12)
+### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](https://github.com/ysu7120/ysu7120/tree/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9D%B8%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9D%B8%ED%8C%8C%EC%82%AC%EA%B3%A0-%EB%B0%A9%EC%A7%80-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95#%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9D%B8%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9D%B8%ED%8C%8C%EC%82%AC%EA%B3%A0-%EB%B0%A9%EC%A7%80-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95202212202212)(2022.12~2022.12)
 
 `#Python` `#Selenium` `#BeautifulSoup` `#Pandas` `#Tensorflow` `#Keras` `#LSTM` `#Kakao` `#Ngrok`
 
