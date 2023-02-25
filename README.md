@@ -67,7 +67,7 @@ C-LSTM 알고리즘을 이용하여 학습 하고 교통체증에 대해 분석 
 - 춘계 학술대회 논문 발표
 - 특허 등록
 
-## [홈베이스: 모션인식을 활용한 야구훈련 프로그램]([https://github.com/geeksbaek/goinside](https://github.com/ysu7120/ysu7120/tree/%ED%99%88%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EC%85%98%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%BC%EA%B5%AC%ED%9B%88%EB%A0%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8#%ED%99%88%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EC%85%98%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%BC%EA%B5%AC%ED%9B%88%EB%A0%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-2021320216)) (2021.3~2021.6)
+## [홈베이스: 모션인식을 활용한 야구훈련 프로그램](https://github.com/ysu7120/ysu7120/tree/%ED%99%88%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EC%85%98%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%BC%EA%B5%AC%ED%9B%88%EB%A0%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8#%ED%99%88%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%AA%A8%EC%85%98%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%BC%EA%B5%AC%ED%9B%88%EB%A0%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-2021320216) (2021.3~2021.6)
 
 `#Python` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Teachable Machine` `#node.js` `#Text to speach`
 
