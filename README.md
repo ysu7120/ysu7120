@@ -1,4 +1,4 @@
-## [문화재 복원을 위한 DCGAN 기반 Image Completion 시스템 ](https://github.com/geeksbaek/ourchess) (2022.1~2022.10)
+## [문화재 복원을 위한 DCGAN 기반 Image Completion 시스템 ](2022.1~2022.10)
 
 `#Python` `#Pandas` `#Tensorflow` `#Keras` `#DCGAN` `#Image Completion` 
 
