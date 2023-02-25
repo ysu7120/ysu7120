@@ -31,7 +31,7 @@
 - [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템 (2022.10~2023.2)](https://github.com/ysu7120#%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B8%B0%EB%B0%98-transfer-learning-%EB%AA%A8%EB%8D%B8%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%84%EB%B3%B4%EC%B9%B4%EB%8F%84-%EB%B6%84%EB%A5%98-%EB%B0%8F-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%8A%A4%ED%85%9C20221020232)
 - [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축 (2022.12~2022.12)](https://github.com/ysu7120#%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9D%B8%EA%B5%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9D%B8%ED%8C%8C%EC%82%AC%EA%B3%A0-%EB%B0%A9%EC%A7%80-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95202212202212)
 
-## [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템](https://github.com/geeksbaek/pokedex) (2020.10~2021.11)
+## [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템](https://github.com/ysu7120/ysu7120/tree/Convolutional-LSTM-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84-%EC%84%BC%EC%84%9C-%EA%B8%B0%EB%B0%98-%EC%82%AC%EA%B1%B0%EB%A6%AC-%EA%B5%90%ED%86%B5%EC%B2%B4%EC%A6%9D-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%8A%A4%ED%85%9C) (2020.10~2021.11)
 
 `#Python` `#Pandas` `#Numpy` `#Tensorflow` `#Keras` `#Data` `#LSTM`
 
