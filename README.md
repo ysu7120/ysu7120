@@ -1,4 +1,4 @@
-### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.12~2022.12)
+### [실시간 인구 데이터 분석을 통한 인파사고 방지 시스템 구축](2022.12~2022.12)
 
 `#Python` `#Selenium` `#BeautifulSoup` `#Pandas` `#Tensorflow` `#Keras` `#LSTM` `#Kakao` `#Ngrok`
 
