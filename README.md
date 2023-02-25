@@ -25,7 +25,7 @@
 
 ## Table of Contents
 
-- [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템(2020.10~2021.11)](https://github.com/geeksbaek/portfolio#pokedex-2018)
+- [Convolutional LSTM 알고리즘 이용한 컴퓨터 비전 센서 기반 사거리 교통체증 예측 시스템(2020.10~2021.11)](https://github.com/ysu7120/ysu7120/blob/main/README.md#convolutional-lstm-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B9%84%EC%A0%84-%EC%84%BC%EC%84%9C-%EA%B8%B0%EB%B0%98-%EC%82%AC%EA%B1%B0%EB%A6%AC-%EA%B5%90%ED%86%B5%EC%B2%B4%EC%A6%9D-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%8A%A4%ED%85%9C-202010202111)
 - [홈베이스: 모션인식을 활용한 야구훈련 프로그램 (2021.3~2021.6)](https://github.com/geeksbaek/portfolio#goinside-20162018)
 - [문화재 복원을 위한 DCGAN 기반 Image Completion 시스템 (2022.1~2022.10)](https://github.com/geeksbaek/portfolio#ourchess-2012)
 - [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템 (2022.10~2023.2)](https://github.com/geeksbaek/portfolio#etc)
