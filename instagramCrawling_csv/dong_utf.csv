@@ -1,0 +1,427 @@
+,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,new_cell
+4,종로구,11010720,청운효자동,Cheongunhyoja-dong,Cheongunhyoja
+5,종로구,11010530,사직동,Sajik-dong,Sajik
+6,종로구,11010540,삼청동,Samcheong-dong,Samcheong
+7,종로구,11010550,부암동,Buam-dong,Buam
+8,종로구,11010560,평창동,Pyeongchang-dong,Pyeongchang
+9,종로구,11010570,무악동,Muak-dong,Muak
+10,종로구,11010580,교남동,Gyonam-dong,Gyonam
+11,종로구,11010600,가회동,Gahoe-dong,Gahoe
+12,종로구,11010610,종로1.2.3.4가동,Jongno 1.2.3.4(ilisamsa)-ga-dong,Jongno1.2.3.4(ilisamsa)-ga
+13,종로구,11010630,종로5.6가동,Jongno 5.6(oryuk)-ga-dong,Jongno5.6(oryuk)-ga
+14,종로구,11010640,이화동,Ihwa-dong,Ihwa
+15,종로구,11010730,혜화동,Hyehwa-dong,Hyehwa
+16,종로구,11010670,창신1동,Changsin 1(il)-dong,Changsin1(il)
+17,종로구,11010680,창신2동,Changsin 2(i)-dong,Changsin2(i)
+18,종로구,11010690,창신3동,Changsin 3(sam)-dong,Changsin3(sam)
+19,종로구,11010700,숭인1동,Sungin 1(il)-dong,Sungin1(il)
+20,종로구,11010710,숭인2동,Sungin 2(i)-dong,Sungin2(i)
+22,중구,11020520,소공동,Sogong-dong,Sogong
+23,중구,11020540,회현동,Hoehyeon-dong,Hoehyeon
+24,중구,11020550,명동,Myeong-dong,Myeong
+25,중구,11020570,필동,Pil-dong,Pil
+26,중구,11020580,장충동,Jangchung-dong,Jangchung
+27,중구,11020590,광희동,Gwanghui-dong ,Gwanghui
+28,중구,11020600,을지로동,Euljiro-dong,Euljiro
+29,중구,11020690,신당동,Sindang-dong,Sindang
+30,중구,11020700,다산동,Dasan-dong,Dasan
+31,중구,11020710,약수동,Yaksu-dong,Yaksu
+32,중구,11020720,청구동,Cheonggu-dong,Cheonggu
+33,중구,11020650,신당5동,Sindang 5(o)-dong,Sindang5(o)
+34,중구,11020730,동화동,Donghwa-dong,Donghwa
+35,중구,11020670,황학동,Hwanghak-dong,Hwanghak
+36,중구,11020680,중림동,Jungnim-dong,Jungnim
+38,용산구,11030510,후암동,Huam-dong,Huam
+39,용산구,11030520,용산2가동,Yongsan 2(i)-ga-dong,Yongsan2(i)-ga
+40,용산구,11030530,남영동,Namyeong-dong,Namyeong
+41,용산구,11030710,청파동,Cheongpa-dong,Cheongpa
+42,용산구,11030720,원효로1동,Wonhyoro 1(il)-dong,Wonhyoro1(il)
+43,용산구,11030570,원효로2동,Wonhyoro 2(i)-dong,Wonhyoro2(i)
+44,용산구,11030580,효창동,Hyochang-dong,Hyochang
+45,용산구,11030590,용문동,Yongmun-dong,Yongmun
+46,용산구,11030730,한강로동,Hangangno-dong,Hangangno
+47,용산구,11030630,이촌1동,Ichon 1(il)-dong,Ichon1(il)
+48,용산구,11030640,이촌2동,Ichon 2(i)-dong,Ichon2(i)
+49,용산구,11030650,이태원1동,Itaewon 1(il)-dong,Itaewon1(il)
+50,용산구,11030660,이태원2동,Itaewon 2(i)-dong,Itaewon2(i)
+51,용산구,11030740,한남동,Hannam-dong,Hannam
+52,용산구,11030690,서빙고동,Seobinggo-dong,Seobinggo
+53,용산구,11030700,보광동,Bogwang-dong,Bogwang
+55,성동구,11040520,왕십리2동,Wangsimni 2(i)-dong,Wangsimni2(i)
+56,성동구,11040710,왕십리도선동,WangsimniDoseon-dong,WangsimniDoseon
+57,성동구,11040540,마장동,Majang-dong,Majang
+58,성동구,11040550,사근동,Sageun-dong,Sageun
+59,성동구,11040560,행당1동,Haengdang 1(il)-dong,Haengdang1(il)
+60,성동구,11040570,행당2동,Haengdang 2(i)-dong,Haengdang2(i)
+61,성동구,11040580,응봉동,Eungbong-dong,Eungbong
+62,성동구,11040590,금호1가동,Geumho 1(il)-ga-dong,Geumho1(il)-ga
+63,성동구,11040720,금호2.3가동,Geumho 2.3(isam)-ga-dong,Geumho2.3(isam)-ga
+64,성동구,11040620,금호4가동,Geumho 4(sa)-ga-dong,Geumho4(sa)-ga
+65,성동구,11040730,옥수동,Oksu-dong,Oksu
+66,성동구,11040650,성수1가1동,Seongsu 1(il)-ga-1(il)-dong,Seongsu1(il)-ga-1(il)
+67,성동구,11040660,성수1가2동,Seongsu 1(il)-ga-2(i)-dong,Seongsu1(il)-ga-2(i)
+68,성동구,11040670,성수2가1동,Seongsu 2(i)-ga-1(il)-dong,Seongsu2(i)-ga-1(il)
+69,성동구,11040680,성수2가3동,Seongsu 2(i)-ga-3(sam)-dong,Seongsu2(i)-ga-3(sam)
+70,성동구,11040690,송정동,Songjeong-dong,Songjeong
+71,성동구,11040700,용답동,Yongdap-dong,Yongdap
+73,광진구,11050530,화양동,Hwayang-dong,Hwayang
+74,광진구,11050540,군자동,Gunja-dong,Gunja
+75,광진구,11050550,중곡1동,Junggok 1(il)-dong,Junggok1(il)
+76,광진구,11050560,중곡2동,Junggok 2(i)-dong,Junggok2(i)
+77,광진구,11050570,중곡3동,Junggok 3(sam)-dong,Junggok3(sam)
+78,광진구,11050580,중곡4동,Junggok 4(sa)-dong,Junggok4(sa)
+79,광진구,11050590,능동,Neung-dong,Neung
+80,광진구,11050630,광장동,Gwangjang-dong,Gwangjang
+81,광진구,11050640,자양1동,Jayang 1(il)-dong,Jayang1(il)
+82,광진구,11050650,자양2동,Jayang 2(i)-dong,Jayang2(i)
+83,광진구,11050660,자양3동,Jayang 3(sam)-dong,Jayang3(sam)
+84,광진구,11050670,자양4동,Jayang 4(sa)-dong,Jayang4(sa)
+85,광진구,11050600,구의1동,Guui 1(il)-dong,Guui1(il)
+86,광진구,11050610,구의2동,Guui 2(i)-dong,Guui2(i)
+87,광진구,11050620,구의3동,Guui 3(sam)-dong,Guui3(sam)
+89,동대문구,11060810,용신동,Yongsin-dong,Yongsin
+90,동대문구,11060820,제기동,Jegi-dong,Jegi
+91,동대문구,11060830,전농1동,Jeonnong 1(il)-dong,Jeonnong1(il)
+92,동대문구,11060840,전농2동,Jeonnong 2(i)-dong,Jeonnong2(i)
+93,동대문구,11060910,답십리1동,Dapsimni 1(il)-dong,Dapsimni1(il)
+94,동대문구,11060860,답십리2동,Dapsimni 2(i)-dong,Dapsimni2(i)
+95,동대문구,11060870,장안1동,Jangan 1(il)-dong,Jangan1(il)
+96,동대문구,11060880,장안2동,Jangan 2(i)-dong,Jangan2(i)
+97,동대문구,11060800,청량리동,Cheongnyangni-dong,Cheongnyangni
+98,동대문구,11060710,회기동,Hoegi-dong,Hoegi
+99,동대문구,11060720,휘경1동,Hwigyeong 1(il)-dong,Hwigyeong1(il)
+100,동대문구,11060730,휘경2동,Hwigyeong 2(i)-dong,Hwigyeong2(i)
+101,동대문구,11060890,이문1동,Imun 1(il)-dong,Imun1(il)
+102,동대문구,11060900,이문2동,Imun 2(i)-dong,Imun2(i)
+104,중랑구,11070520,면목2동,Myeonmok 2(i)-dong,Myeonmok2(i)
+105,중랑구,11070540,면목4동,Myeonmok 4(sa)-dong,Myeonmok4(sa)
+106,중랑구,11070550,면목5동,Myeonmok 5(o)-dong,Myeonmok5(o)
+107,중랑구,11070710,면목본동,Myeonmokbon-dong,Myeonmokbon
+108,중랑구,11070570,면목7동,Myeonmok 7(chil)-dong,Myeonmok7(chil)
+109,중랑구,11070720,면목3.8동,Myeonmok 3.8(sampal)-dong,Myeonmok3.8(sampal)
+110,중랑구,11070590,상봉1동,Sangbong 1(il)-dong,Sangbong1(il)
+111,중랑구,11070600,상봉2동,Sangbong 2(i)-dong,Sangbong2(i)
+112,중랑구,11070610,중화1동,Junghwa 1(il)-dong,Junghwa1(il)
+113,중랑구,11070620,중화2동,Junghwa 2(i)-dong,Junghwa2(i)
+114,중랑구,11070640,묵1동,Muk 1(il)-dong,Muk1(il)
+115,중랑구,11070650,묵2동,Muk 2(i)-dong,Muk2(i)
+116,중랑구,11070730,망우본동,Mangubon-dong,Mangubon
+117,중랑구,11070680,망우3동,Mangu 3(sam)-dong,Mangu3(sam)
+118,중랑구,11070690,신내1동,Sinnae 1(il)-dong,Sinnae1(il)
+119,중랑구,11070700,신내2동,Sinnae 2(i)-dong,Sinnae2(i)
+121,성북구,11080810,성북동,Seongbuk-dong,Seongbuk
+122,성북구,11080820,삼선동,Samseon-dong,Samseon
+123,성북구,11080830,동선동,Dongseon-dong,Dongseon
+124,성북구,11080580,돈암1동,Donam 1(il)-dong,Donam1(il)
+125,성북구,11080590,돈암2동,Donam 2(i)-dong,Donam2(i)
+126,성북구,11080600,안암동,Anam-dong,Anam
+127,성북구,11080610,보문동,Bomun-dong,Bomun
+128,성북구,11080620,정릉1동,Jeongneung 1(il)-dong,Jeongneung1(il)
+129,성북구,11080630,정릉2동,Jeongneung 2(i)-dong,Jeongneung2(i)
+130,성북구,11080640,정릉3동,Jeongneung 3(sam)-dong,Jeongneung3(sam)
+131,성북구,11080650,정릉4동,Jeongneung 4(sa)-dong,Jeongneung4(sa)
+132,성북구,11080660,길음1동,Gireum 1(il)-dong,Gireum1(il)
+133,성북구,11080680,길음2동,Gireum 2(i)-dong,Gireum2(i)
+134,성북구,11080840,종암동,Jongam-dong,Jongam
+135,성북구,11080710,월곡1동,Wolgok 1(il)-dong,Wolgok1(il)
+136,성북구,11080720,월곡2동,Wolgok 2(i)-dong,Wolgok2(i)
+137,성북구,11080760,장위1동,Jangwi 1(il)-dong,Jangwi1(il)
+138,성북구,11080770,장위2동,Jangwi 2(i)-dong,Jangwi2(i)
+139,성북구,11080780,장위3동,Jangwi 3(sam)-dong,Jangwi3(sam)
+140,성북구,11080850,석관동,Seokgwan-dong,Seokgwan
+142,강북구,11090690,삼양동,Samyang-dong,Samyang
+143,강북구,11090700,미아동,Mia-dong,Mia
+144,강북구,11090710,송중동,Songjung-dong,Songjung
+145,강북구,11090720,송천동,Songcheon-dong,Songcheon
+146,강북구,11090730,삼각산동,Samgaksan-dong,Samgaksan
+147,강북구,11090600,번1동,Beon 1(il)-dong,Beon1(il)
+148,강북구,11090610,번2동,Beon 2(i)-dong,Beon2(i)
+149,강북구,11090620,번3동,Beon 3(sam)-dong,Beon3(sam)
+150,강북구,11090630,수유1동,Suyu 1(il)-dong,Suyu1(il)
+151,강북구,11090640,수유2동,Suyu 2(i)-dong,Suyu2(i)
+152,강북구,11090650,수유3동,Suyu 3(sam)-dong,Suyu3(sam)
+153,강북구,11090740,우이동,Ui-dong,Ui
+154,강북구,11090750,인수동,Insu-dong,Insu
+156,도봉구,11100590,창1동,Chang 1(il)-dong,Chang1(il)
+157,도봉구,11100600,창2동,Chang 2(i)-dong,Chang2(i)
+158,도봉구,11100610,창3동,Chang 3(sam)-dong,Chang3(sam)
+159,도봉구,11100620,창4동,Chang 4(sa)-dong,Chang4(sa)
+160,도봉구,11100630,창5동,Chang 5(o)-dong,Chang5(o)
+161,도봉구,11100640,도봉1동,Dobong 1(il)-dong,Dobong1(il)
+162,도봉구,11100650,도봉2동,Dobong 2(i)-dong,Dobong2(i)
+163,도봉구,11100510,쌍문1동,Ssangmun 1(il)-dong,Ssangmun1(il)
+164,도봉구,11100520,쌍문2동,Ssangmun 2(i)-dong,Ssangmun2(i)
+165,도봉구,11100530,쌍문3동,Ssangmun 3(sam)-dong,Ssangmun3(sam)
+166,도봉구,11100540,쌍문4동,Ssangmun 4(sa)-dong,Ssangmun4(sa)
+167,도봉구,11100550,방학1동,Banghak 1(il)-dong,Banghak1(il)
+168,도봉구,11100560,방학2동,Banghak 2(i)-dong,Banghak2(i)
+169,도봉구,11100570,방학3동,Banghak 3(sam)-dong,Banghak3(sam)
+171,노원구,11110510,월계1동,Wolgye 1(il)-dong,Wolgye1(il)
+172,노원구,11110520,월계2동,Wolgye 2(i)-dong,Wolgye2(i)
+173,노원구,11110530,월계3동,Wolgye 3(sam)-dong,Wolgye3(sam)
+174,노원구,11110790,공릉1동,Gongneung 1(il)-dong,Gongneung1(il)
+175,노원구,11110560,공릉2동,Gongneung 2(i)-dong,Gongneung2(i)
+176,노원구,11110580,하계1동,Hagye 1(il)-dong,Hagye1(il)
+177,노원구,11110590,하계2동,Hagye 2(i)-dong,Hagye2(i)
+178,노원구,11110600,중계본동,Junggyebon-dong,Junggyebon
+179,노원구,11110610,중계1동,Junggye 1(il)-dong,Junggye1(il)
+180,노원구,11110640,중계4동,Junggye 4(sa)-dong,Junggye4(sa)
+181,노원구,11110780,중계2.3동,Junggye 2.3(isam)-dong,Junggye2.3(isam)
+182,노원구,11110650,상계1동,Sanggye 1(il)-dong,Sanggye1(il)
+183,노원구,11110660,상계2동,Sanggye 2(i)-dong,Sanggye2(i)
+184,노원구,11110760,상계3.4동,Sanggye 3.4(samsa)-dong,Sanggye3.4(samsa)
+185,노원구,11110690,상계5동,Sanggye 5(o)-dong,Sanggye5(o)
+186,노원구,11110770,상계6.7동,Sanggye 6.7(yukchil)-dong,Sanggye6.7(yukchil)
+187,노원구,11110720,상계8동,Sanggye 8(pal)-dong,Sanggye8(pal)
+188,노원구,11110730,상계9동,Sanggye 9(gu)-dong,Sanggye9(gu)
+189,노원구,11110740,상계10동,Sanggye 10(sip)-dong,Sanggye10(sip)
+191,은평구,11120510,녹번동,Nokbeon-dong,Nokbeon
+192,은평구,11120520,불광1동,Bulgwang 1(il)-dong,Bulgwang1(il)
+193,은평구,11120720,불광2동,Bulgwang 2(i)-dong,Bulgwang2(i)
+194,은평구,11120550,갈현1동,Galhyeon 1(il)-dong,Galhyeon1(il)
+195,은평구,11120560,갈현2동,Galhyeon 2(i)-dong,Galhyeon2(i)
+196,은평구,11120570,구산동,Gusan-dong,Gusan
+197,은평구,11120580,대조동,Daejo-dong,Daejo
+198,은평구,11120590,응암1동,Eungam 1(il)-dong,Eungam1(il)
+199,은평구,11120600,응암2동,Eungam 2(i)-dong,Eungam2(i)
+200,은평구,11120730,응암3동,Eungam 3(sam)-dong,Eungam3(sam)
+201,은평구,11120740,역촌동,Yeokchon-dong,Yeokchon
+202,은평구,11120650,신사1동,Sinsa 1(il)-dong,Sinsa1(il)
+203,은평구,11120660,신사2동,Sinsa 2(i)-dong,Sinsa2(i)
+204,은평구,11120670,증산동,Jeungsan-dong,Jeungsan
+205,은평구,11120680,수색동,Susaek-dong,Susaek
+206,은평구,11120710,진관동,Jingwan-dong,Jingwan
+208,서대문구,11130520,천연동,Cheonyeon-dong,Cheonyeon
+209,서대문구,11130740,북아현동,Bugahyeon-dong,Bugahyeon
+210,서대문구,11130730,충현동,Chunghyeon-dong,Chunghyeon
+211,서대문구,11130750,신촌동,Sinchon-dong,Sinchon
+212,서대문구,11130760,연희동,Yeonhui-dong,Yeonhui
+213,서대문구,11130620,홍제1동,Hongje 1(il)-dong,Hongje1(il)
+214,서대문구,11130640,홍제3동,Hongje 3(sam)-dong,Hongje3(sam)
+215,서대문구,11130650,홍제2동,Hongje 2(i)-dong,Hongje2(i)
+216,서대문구,11130660,홍은1동,Hongeun 1(il)-dong,Hongeun1(il)
+217,서대문구,11130680,홍은2동,Hongeun 2(i)-dong,Hongeun2(i)
+218,서대문구,11130690,남가좌1동,Namgajwa 1(il)-dong,Namgajwa1(il)
+219,서대문구,11130700,남가좌2동,Namgajwa 2(i)-dong,Namgajwa2(i)
+220,서대문구,11130710,북가좌1동,Bukgajwa 1(il)-dong,Bukgajwa1(il)
+221,서대문구,11130720,북가좌2동,Bukgajwa 2(i)-dong,Bukgajwa2(i)
+223,마포구,11140780,아현동,Ahyeon-dong,Ahyeon
+224,마포구,11140770,공덕동,gongdeok-dong,gongdeok
+225,마포구,11140750,도화동,Dohwa-dong,Dohwa
+226,마포구,11140590,용강동,Yonggang-dong,Yonggang
+227,마포구,11140600,대흥동,Daeheung-dong,Daeheung
+228,마포구,11140610,염리동,Yeomni-dong,Yeomni
+229,마포구,11140630,신수동,Sinsu-dong,Sinsu
+230,마포구,11140760,서강동,Seogang-dong,Seogang
+231,마포구,11140660,서교동,Seogyo-dong,Seogyo
+232,마포구,11140680,합정동,Hapjeong-dong,Hapjeong
+233,마포구,11140690,망원1동,Mangwon 1(il)-dong,Mangwon1(il)
+234,마포구,11140700,망원2동,Mangwon 2(i)-dong,Mangwon2(i)
+235,마포구,11140710,연남동,Yeonnam-dong,Yeonnam
+236,마포구,11140720,성산1동,Seongsan 1(il)-dong,Seongsan1(il)
+237,마포구,11140730,성산2동,Seongsan 2(i)-dong,Seongsan2(i)
+238,마포구,11140740,상암동,Sangam-dong,Sangam
+240,양천구,11150510,목1동,Mok 1(il)-dong,Mok1(il)
+241,양천구,11150520,목2동,Mok 2(i)-dong,Mok2(i)
+242,양천구,11150530,목3동,Mok 3(sam)-dong,Mok3(sam)
+243,양천구,11150540,목4동,Mok 4(sa)-dong,Mok4(sa)
+244,양천구,11150710,목5동,Mok 5(o)-dong,Mok5(o)
+245,양천구,11150570,신월1동,Sinwol 1(il)-dong,Sinwol1(il)
+246,양천구,11150580,신월2동,Sinwol 2(i)-dong,Sinwol2(i)
+247,양천구,11150590,신월3동,Sinwol 3(sam)-dong,Sinwol3(sam)
+248,양천구,11150600,신월4동,Sinwol 4(sa)-dong,Sinwol4(sa)
+249,양천구,11150610,신월5동,Sinwol 5(o)-dong,Sinwol5(o)
+250,양천구,11150620,신월6동,Sinwol 6(yuk)-dong,Sinwol6(yuk)
+251,양천구,11150630,신월7동,Sinwol 7(chil)-dong,Sinwol7(chil)
+252,양천구,11150640,신정1동,Sinjeong 1(il)-dong,Sinjeong1(il)
+253,양천구,11150650,신정2동,Sinjeong 2(i)-dong,Sinjeong2(i)
+254,양천구,11150660,신정3동,Sinjeong 3(sam)-dong,Sinjeong3(sam)
+255,양천구,11150720,신정4동,Sinjeong 4(sa)-dong,Sinjeong4(sa)
+256,양천구,11150690,신정6동,Sinjeong 6(yuk)-dong,Sinjeong6(yuk)
+257,양천구,11150700,신정7동,Sinjeong 7(chil)-dong,Sinjeong7(chil)
+259,강서구,11160510,염창동,Yeomchang-dong,Yeomchang
+260,강서구,11160520,등촌1동,Deungchon 1(il)-dong,Deungchon1(il)
+261,강서구,11160530,등촌2동,Deungchon 2(i)-dong,Deungchon2(i)
+262,강서구,11160540,등촌3동,Deungchon 3(sam)-dong,Deungchon3(sam)
+263,강서구,11160730,화곡1동,Hwagok 1(il)-dong,Hwagok1(il)
+264,강서구,11160570,화곡2동,Hwagok 2(i)-dong,Hwagok2(i)
+265,강서구,11160580,화곡3동,Hwagok 3(sam)-dong,Hwagok3(sam)
+266,강서구,11160590,화곡4동,Hwagok 4(sa)-dong,Hwagok4(sa)
+267,강서구,11160550,화곡본동,Hwagokbon-dong,Hwagokbon
+268,강서구,11160610,화곡6동,Hwagok 6(yuk)-dong,Hwagok6(yuk)
+269,강서구,11160630,화곡8동,Hwagok 8(pal)-dong,Hwagok8(pal)
+270,강서구,11160640,가양1동,Gayang 1(il)-dong,Gayang1(il)
+271,강서구,11160650,가양2동,Gayang 2(i)-dong,Gayang2(i)
+272,강서구,11160660,가양3동,Gayang 3(sam)-dong,Gayang3(sam)
+273,강서구,11160670,발산1동,Balsan 1(il)-dong,Balsan1(il)
+274,강서구,11160740,우장산동,Ujangsan-dong,Ujangsan
+275,강서구,11160690,공항동,Gonghang-dong,Gonghang
+276,강서구,11160700,방화1동,Banghwa 1(il)-dong,Banghwa1(il)
+277,강서구,11160710,방화2동,Banghwa 2(i)-dong,Banghwa2(i)
+278,강서구,11160720,방화3동,Banghwa 3(sam)-dong,Banghwa3(sam)
+280,구로구,11170510,신도림동,Sindorim-dong,Sindorim
+281,구로구,11170520,구로1동,Guro 1(il)-dong,Guro1(il)
+282,구로구,11170710,구로2동,Guro 2(i)-dong,Guro2(i)
+283,구로구,11170540,구로3동,Guro 3(sam)-dong,Guro3(sam)
+284,구로구,11170550,구로4동,Guro 4(sa)-dong,Guro4(sa)
+285,구로구,11170560,구로5동,Guro 5(o)-dong,Guro5(o)
+286,구로구,11170700,가리봉동,Garibong-dong,Garibong
+287,구로구,11170610,고척1동,Gocheok 1(il)-dong,Gocheok1(il)
+288,구로구,11170620,고척2동,Gocheok 2(i)-dong,Gocheok2(i)
+289,구로구,11170720,개봉1동,Gaebong 1(il)-dong,Gaebong1(il)
+290,구로구,11170640,개봉2동,Gaebong 2(i)-dong,Gaebong2(i)
+291,구로구,11170650,개봉3동,Gaebong 3(sam)-dong,Gaebong3(sam)
+292,구로구,11170670,오류1동,Oryu 1(il)-dong,Oryu1(il)
+293,구로구,11170730,오류2동,Oryu 2(i)-dong,Oryu2(i)
+294,구로구,11170690,수궁동,Sugung-dong,Sugung
+295,구로구,11170740,항동,Hang-dong,Hang
+297,금천구,11180510,가산동,Gasan-dong,Gasan
+298,금천구,11180520,독산1동,Doksan 1(il)-dong,Doksan1(il)
+299,금천구,11180530,독산2동,Doksan 2(i)-dong,Doksan2(i)
+300,금천구,11180540,독산3동,Doksan 3(sam)-dong,Doksan3(sam)
+301,금천구,11180550,독산4동,Doksan 4(sa)-dong,Doksan4(sa)
+302,금천구,11180570,시흥1동,Siheung 1(il)-dong,Siheung1(il)
+303,금천구,11180580,시흥2동,Siheung 2(i)-dong,Siheung2(i)
+304,금천구,11180590,시흥3동,Siheung 3(sam)-dong,Siheung3(sam)
+305,금천구,11180600,시흥4동,Siheung 4(sa)-dong,Siheung4(sa)
+306,금천구,11180610,시흥5동,Siheung 5(o)-dong,Siheung5(o)
+308,영등포구,11190730,영등포본동,Yeongdeungpobon-dong,Yeongdeungpobon
+309,영등포구,11190740,영등포동,Yeongdeungpo-dong,Yeongdeungpo
+310,영등포구,11190540,여의동,Yeoui-dong,Yeoui
+311,영등포구,11190550,당산1동,Dangsan 1(il)-dong,Dangsan1(il)
+312,영등포구,11190560,당산2동,Dangsan  2(i)-dong,Dangsan2(i)
+313,영등포구,11190750,도림동,Dorim-dong,Dorim
+314,영등포구,11190760,문래동,Mullae-dong,Mullae
+315,영등포구,11190610,양평1동,Yangpyeong 1(il)-dong,Yangpyeong1(il)
+316,영등포구,11190620,양평2동,Yangpyeong 2(i)-dong,Yangpyeong2(i)
+317,영등포구,11190630,신길1동,Singil 1(il)-dong,Singil1(il)
+318,영등포구,11190650,신길3동,Singil 3(sam)-dong,Singil3(sam)
+319,영등포구,11190660,신길4동,Singil 4(sa)-dong,Singil4(sa)
+320,영등포구,11190670,신길5동,Singil 5(o)-dong,Singil5(o)
+321,영등포구,11190680,신길6동,Singil 6(yuk)-dong,Singil6(yuk)
+322,영등포구,11190690,신길7동,Singil 7(chil)-dong,Singil7(chil)
+323,영등포구,11190700,대림1동,Daerim 1(il)-dong,Daerim1(il)
+324,영등포구,11190710,대림2동,Daerim 2(i)-dong,Daerim2(i)
+325,영등포구,11190720,대림3동,Daerim 3(sam)-dong,Daerim3(sam)
+327,동작구,11200720,노량진1동,Noryangjin 1(il)-dong,Noryangjin1(il)
+328,동작구,11200520,노량진2동,Noryangjin 2(i)-dong,Noryangjin2(i)
+329,동작구,11200530,상도1동,Sangdo 1(il)-dong,Sangdo1(il)
+330,동작구,11200540,상도2동,Sangdo 2(i)-dong,Sangdo2(i)
+331,동작구,11200550,상도3동,Sangdo 3(sam)-dong,Sangdo3(sam)
+332,동작구,11200560,상도4동,Sangdo 4(sa)-dong,Sangdo4(sa)
+333,동작구,11200710,흑석동,Heukseok-dong,Heukseok
+334,동작구,11200630,사당1동,Sadang 1(il)-dong,Sadang1(il)
+335,동작구,11200730,사당2동,Sadang 2(i)-dong,Sadang2(i)
+336,동작구,11200650,사당3동,Sadang 3(sam)-dong,Sadang3(sam)
+337,동작구,11200660,사당4동,Sadang 4(sa)-dong,Sadang4(sa)
+338,동작구,11200670,사당5동,Sadang 5(o)-dong,Sadang5(o)
+339,동작구,11200680,대방동,Daebang-dong,Daebang
+340,동작구,11200690,신대방1동,Sindaebang 1(il)-dong,Sindaebang1(il)
+341,동작구,11200700,신대방2동,Sindaebang 2(i)-dong,Sindaebang2(i)
+343,관악구,11210520,보라매동,Boramae-dong,Boramae
+344,관악구,11210540,청림동,Cheongnim-dong,Cheongnim
+345,관악구,11210790,성현동,Seonghyeon-dong,Seonghyeon
+346,관악구,11210570,행운동,Haengun-dong,Haengun
+347,관악구,11210580,낙성대동,Nagseongdae-dong,Nagseongdae
+348,관악구,11210800,청룡동,Cheongnyong-dong,Cheongnyong
+349,관악구,11210780,은천동,Euncheon-dong,Euncheon
+350,관악구,11210610,중앙동,Jungang-dong,Jungang
+351,관악구,11210620,인헌동,Inheon-dong,Inheon
+352,관악구,11210630,남현동,Namhyeon-dong,Namhyeon
+353,관악구,11210640,서원동,Sewon-dong,Sewon
+354,관악구,11210650,신원동,Sinwon-dong,Sinwon
+355,관악구,11210660,서림동,Serim-dong,Serim
+356,관악구,11210680,신사동,Sinsa-dong,Sinsa
+357,관악구,11210690,신림동,Sillim-dong,Sillim
+358,관악구,11210710,난향동,Nanhyang-dong,Nanhyang
+359,관악구,11210720,조원동,Jowon-dong,Jowon
+360,관악구,11210730,대학동,Daehak-dong,Daehak
+361,관악구,11210820,삼성동,Samseong-dong,Samseong
+362,관악구,11210830,미성동,Miseong-dong,Miseong
+363,관악구,11210810,난곡동,Nangok-dong,Nangok
+365,서초구,11220510,서초1동,Seocho 1(il)-dong,Seocho1(il)
+366,서초구,11220520,서초2동,Seocho 2(i)-dong,Seocho2(i)
+367,서초구,11220530,서초3동,Seocho 3(sam)-dong,Seocho3(sam)
+368,서초구,11220540,서초4동,Seocho 4(sa)-dong,Seocho4(sa)
+369,서초구,11220550,잠원동,Jamwon-dong,Jamwon
+370,서초구,11220560,반포본동,Banpobon-dong,Banpobon
+371,서초구,11220570,반포1동,Banpo 1(il)-dong,Banpo1(il)
+372,서초구,11220580,반포2동,Banpo 2(i)-dong,Banpo2(i)
+373,서초구,11220590,반포3동,Banpo 3(sam)-dong,Banpo3(sam)
+374,서초구,11220600,반포4동,Banpo 4(sa)-dong,Banpo4(sa)
+375,서초구,11220610,방배본동,Bangbaebon-dong,Bangbaebon
+376,서초구,11220620,방배1동,Bangbae 1(il)-dong,Bangbae1(il)
+377,서초구,11220630,방배2동,Bangbae 2(i)-dong,Bangbae2(i)
+378,서초구,11220640,방배3동,Bangbae 3(sam)-dong,Bangbae3(sam)
+379,서초구,11220650,방배4동,Bangbae 4(sa)-dong,Bangbae4(sa)
+380,서초구,11220660,양재1동,Yangjae 1(il)-dong,Yangjae1(il)
+381,서초구,11220670,양재2동,Yangjae 2(i)-dong,Yangjae2(i)
+382,서초구,11220680,내곡동,Naegok-dong,Naegok
+384,강남구,11230510,신사동,Sinsa-dong,Sinsa
+385,강남구,11230520,논현1동,Nonhyeon 1(il)-dong,Nonhyeon1(il)
+386,강남구,11230530,논현2동,Nonhyeon 2(i)-dong,Nonhyeon2(i)
+387,강남구,11230770,압구정동,Apgujeong-dong,Apgujeong
+388,강남구,11230780,청담동,Cheongdam-dong,Cheongdam
+389,강남구,11230580,삼성1동,Samseong 1(il)-dong,Samseong1(il)
+390,강남구,11230590,삼성2동,Samseong 2(i)-dong,Samseong2(i)
+391,강남구,11230600,대치1동,Daechi 1(il)-dong,Daechi1(il)
+392,강남구,11230790,대치2동,Daechi 2(i)-dong,Daechi2(i)
+393,강남구,11230630,대치4동,Daechi 4(sa)-dong,Daechi4(sa)
+394,강남구,11230640,역삼1동,Yeoksam 1(il)-dong,Yeoksam1(il)
+395,강남구,11230650,역삼2동,Yeoksam 2(i)-dong,Yeoksam2(i)
+396,강남구,11230660,도곡1동,Dogok 1(il)-dong,Dogok1(il)
+397,강남구,11230670,도곡2동,Dogok 2(i)-dong,Dogok2(i)
+398,강남구,11230680,개포1동,Gaepo 1(il)-dong,Gaepo1(il)
+399,강남구,11230800,개포2동,Gaepo 2(i)-dong,Gaepo2(i)
+400,강남구,11230710,개포4동,Gaepo 4(sa)-dong,Gaepo4(sa)
+401,강남구,11230760,세곡동,Segok-dong,Segok
+402,강남구,11230720,일원본동,Irwonbon-dong,Irwonbon
+403,강남구,11230730,일원1동,Irwon 1(il)-dong,Irwon1(il)
+404,강남구,11230740,일원2동,Irwon 2(i)-dong,Irwon2(i)
+405,강남구,11230750,수서동,Suseo-dong,Suseo
+407,송파구,11240510,풍납1동,Pungnap 1(il)-dong,Pungnap1(il)
+408,송파구,11240520,풍납2동,Pungnap 2(i)-dong,Pungnap2(i)
+409,송파구,11240530,거여1동,Geoyeo 1(il)-dong,Geoyeo1(il)
+410,송파구,11240540,거여2동,Geoyeo 2(i)-dong,Geoyeo2(i)
+411,송파구,11240550,마천1동,Macheon 1(il)-dong,Macheon1(il)
+412,송파구,11240560,마천2동,Macheon 2(i)-dong,Macheon2(i)
+413,송파구,11240570,방이1동,Bangi 1(il)-dong,Bangi1(il)
+414,송파구,11240580,방이2동,Bangi 2(i)-dong,Bangi2(i)
+415,송파구,11240590,오륜동,Oryun-dong,Oryun
+416,송파구,11240600,오금동,Ogeum-dong,Ogeum
+417,송파구,11240610,송파1동,Songpa 1(il)-dong,Songpa1(il)
+418,송파구,11240620,송파2동,Songpa 2(i)-dong,Songpa2(i)
+419,송파구,11240630,석촌동,Seokchon-dong,Seokchon
+420,송파구,11240640,삼전동,Samjeon-dong,Samjeon
+421,송파구,11240650,가락본동,Garakbon-dong,Garakbon
+422,송파구,11240660,가락1동,Garak 1(il)-dong,Garak1(il)
+423,송파구,11240670,가락2동,Garak 2(i)-dong,Garak2(i)
+424,송파구,11240680,문정1동,Munjeong 1(il)-dong,Munjeong1(il)
+425,송파구,11240690,문정2동,Munjeong 2(i)-dong,Munjeong2(i)
+426,송파구,11240810,장지동,Jangji-dong,Jangji
+427,송파구,11240820,위례동,wirye-dong,wirye
+428,송파구,11240710,잠실본동,Jamsilbon-dong,Jamsilbon
+429,송파구,11240790,잠실2동,Jamsil 2(i)-dong,Jamsil2(i)
+430,송파구,11240800,잠실3동,Jamsil 3(sam)-dong,Jamsil3(sam)
+431,송파구,11240750,잠실4동,Jamsil 4(sa)-dong,Jamsil4(sa)
+432,송파구,11240770,잠실6동,Jamsil 6(yuk)-dong,Jamsil6(yuk)
+433,송파구,11240780,잠실7동,Jamsil 7(chil)-dong,Jamsil7(chil)
+435,강동구,11250750,강일동,Gangil-dong,Gangil
+436,강동구,11250760,상일1동,Sangil 1(il)-dong,Sangil1(il)
+437,강동구,11250770,상일2동,Sangil 2(i)-dong,Sangil2(i)
+438,강동구,11250530,명일1동,Myeongil 1(il)-dong,Myeongil1(il)
+439,강동구,11250540,명일2동,Myeongil 2(i)-dong,Myeongil2(i)
+440,강동구,11250550,고덕1동,Godeok 1(il)-dong,Godeok1(il)
+441,강동구,11250560,고덕2동,Godeok 2(i)-dong,Godeok2(i)
+442,강동구,11250720,암사1동,Amsa 1(il)-dong,Amsa1(il)
+443,강동구,11250580,암사2동,Amsa 2(i)-dong,Amsa2(i)
+444,강동구,11250590,암사3동,Amsa 3(sam)-dong,Amsa3(sam)
+445,강동구,11250610,천호1동,Cheonho 1(il)-dong,Cheonho1(il)
+446,강동구,11250730,천호2동,Cheonho 2(i)-dong,Cheonho2(i)
+447,강동구,11250630,천호3동,Cheonho 3(sam)-dong,Cheonho3(sam)
+448,강동구,11250650,성내1동,Seongnae 1(il)-dong,Seongnae1(il)
+449,강동구,11250660,성내2동,Seongnae 2(i)-dong,Seongnae2(i)
+450,강동구,11250670,성내3동,Seongnae 3(sam)-dong,Seongnae3(sam)
+451,강동구,11250740,길동,Gil-dong,Gil
+452,강동구,11250700,둔촌1동,Dunchon 1(il)-dong,Dunchon1(il)
+453,강동구,11250710,둔촌2동,Dunchon 2(i)-dong,Dunchon2(i)
