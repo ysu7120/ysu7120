@@ -139,7 +139,7 @@ AI Hub의 문화재 데이터를 활용하여 학습데이터셋을 제작하고
 ## 프로젝트 성과
 - 추계학술대회 논문발표
 
-### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.10~2023.2)
+### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](https://github.com/ysu7120/ysu7120/blob/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B8%B0%EB%B0%98-Transfer-Learning-%EB%AA%A8%EB%8D%B8%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%84%EB%B3%B4%EC%B9%B4%EB%8F%84-%EB%B6%84%EB%A5%98-%EB%B0%8F-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%8A%A4%ED%85%9C/README.md#%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B8%B0%EB%B0%98-transfer-learning-%EB%AA%A8%EB%8D%B8%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%95%84%EB%B3%B4%EC%B9%B4%EB%8F%84-%EB%B6%84%EB%A5%98-%EB%B0%8F-%EC%98%88%EC%B8%A1-%EC%8B%9C%EC%8A%A4%ED%85%9C)(2022.10~2023.2)
 
 `#Python` `#Selenium` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Streamlit` `#Ngrok`
 
