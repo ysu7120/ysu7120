@@ -1,0 +1,6 @@
+test,precision,recall,f1-score,support
+덜익은 아보카도,0.99,0.99,0.99,69
+익은 아보카도,0.98,0.98,0.98,57
+accuracy,,,0.98,126
+macro avg,0.98,0.98,0.98,126
+weighted avg,0.98,0.98,0.98,126
