@@ -1,4 +1,4 @@
-### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](https://github.com/geeksbaek/tesla-model-3-earlybird)(2022.10~2023.2)
+### [딥러닝 기반 Transfer Learning 모델을 활용한 아보카도 분류 및 예측 시스템](2022.10~2023.2)
 
 `#Python` `#Selenium` `#Pandas` `#Tensorflow` `#Keras` `#Transfer learning` `#Streamlit` `#Ngrok`
 
